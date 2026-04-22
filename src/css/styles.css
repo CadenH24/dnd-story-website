@@ -1,1 +1,30 @@
+* {
+    border: 1px solid blue;
+
+}
+
 /*Global Styles*/
+body {
+    font-family: sans-serif; /*Change this for your global font*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: whitesmoke;
+    background-color: dimgray;
+}
+
+.header {
+    display: flex;
+}
+
+.content {
+    min-width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
