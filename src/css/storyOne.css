@@ -4,15 +4,22 @@ body {
     justify-content: center;
 }
 
+img {
+    max-width: 100%;
+}
+
 .left {
     min-width: 25%;
+    margin-right: 10px;
 }
+
 .back {
     align-self: start;
 }
 
 .right {
     min-width: 25%;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
 }
