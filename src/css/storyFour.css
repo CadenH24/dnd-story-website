@@ -1,0 +1,15 @@
+body {
+    flex-direction: row;
+    align-items: stretch;
+    min-height: 100vh;
+}
+
+.left {
+    min-width: 25%;
+    margin-right: 10px;
+}
+
+.right {
+    min-width: 25%;
+    margin-left: 10px;
+}

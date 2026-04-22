@@ -1,6 +1,7 @@
 body {
     flex-direction: row;
     align-items: start;
+    min-height: 100vh;
 }
 
 img {
