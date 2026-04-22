@@ -1,6 +1,7 @@
 body {
     flex-direction: row;
-    align-items: start;
+    align-items: stretch;
+    min-height: 100vh;
 }
 
 img {
@@ -11,16 +12,23 @@ img {
     min-width: 25%;
     margin-right: 10px;
 }
-
+.left .spacer {
+    min-height: 250px;
+}
 .back {
     align-self: start;
 }
 
+.middle {
+
+}
+
 .right {
-    min-width: 25%;
-    margin-left: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: end;
+    min-width: 25%;
+    margin-left: 10px;
 }
 
 .next {
