@@ -1,11 +1,7 @@
 body {
     flex-direction: row;
-    align-items: start;
+    align-items: stretch;
     min-height: 100vh;
-}
-
-img {
-    max-width: 100%;
 }
 
 .left {
@@ -13,17 +9,11 @@ img {
     margin-right: 10px;
 }
 
-.back {
-    align-self: start;
-}
-
 .right {
     min-width: 25%;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
-}
-
-.next {
-    align-self: end;
+    justify-content: end;
+    text-align: right;
 }

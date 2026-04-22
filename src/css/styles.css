@@ -16,6 +16,10 @@ body {
     background-color: dimgray;
 }
 
+p {
+    margin-bottom: 4px;
+}
+
 .header {
     display: flex;
 }
