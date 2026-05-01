@@ -9,6 +9,16 @@
 <body>
 <div class="left">
     <a href="../index.html">Back</a>
+    <audio id="audioSource2" src="../assets/Angela_Ruzisaa-2.mp3"></audio>
+    <button id="audioButton2">Angela Ruzisaa</button>
+    <script>
+        const audioSource2 = document.getElementById("audioSource2");
+        const audioButton2 = document.getElementById("audioButton2");
+
+        audioButton2.addEventListener("click", (event) => {
+            audioSource2.play();
+        });
+    </script>
 </div>
 <div class="middle">
     <div class="header">
@@ -28,6 +38,16 @@
     </div>
 </div>
 <div class="right">
+    <audio id="audioSource" src="../assets/AlexieTorresAudioStory.mp3"></audio>
+    <button id="audioButton">Alexie Torres</button>
+    <script>
+        const audioSource = document.getElementById("audioSource");
+        const audioButton = document.getElementById("audioButton");
+
+        audioButton.addEventListener("click", (event) => {
+            audioSource.play();
+        });
+    </script>
     <a href="../index.html">Next</a>
 </div>
 
